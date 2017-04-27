@@ -21,28 +21,41 @@ body {
 }
 
 
+
+
 .content {
-  position: absolute;
-  top: 120px;
+  margin-top: 120;
+  margin-left: auto;
+  margin-right: auto;
   right: 3%;
   left: 3%;
   width: 94%;
+  height: 38%;
 
 
   background-color: #e39a4e;
   border-radius: 15px 15px 15px 15px;
 }
-
+ul {
+  padding: 0;
+  margin: 0;
+}
 .listContents {
-  position: absolute;
-  top: 450px;
+  margin-top: 50;
+  margin-left: auto;
+  margin-right: auto;
   right: 3%;
   left: 3%;
   width: 94%;
   background-color: #e39a4e;
   border-radius: 15px 15px 15px 15px;
+
 }
 
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 
 .borderContent {
@@ -87,15 +100,15 @@ body {
 .itemDates {
   flex-shrink: 1;
   background: rgba(255, 255, 255, 0.2);
-  padding: 10;
-  margin: 5;
+  padding: 5;
+  margin: 8;
   border-radius: 5px 5px 5px 5px;
 }
 
 .itemTimes {
   flex-grow: 1;
   background: rgba(255, 255, 255, 0.2);
-  padding: 10;
+  padding: 5;
   margin: 5;
   border-radius: 5px 5px 5px 5px;
 }
@@ -128,11 +141,12 @@ body {
   border: 0px;
   box-shadow: none;
   outline: none;
+  display: flex;
 }
 
 .day {
+  flex-grow: 1;
   float: left;
-  position: relative;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   width: 25px;
@@ -145,21 +159,20 @@ body {
 }
 
 .times {
+  flex-grow: 1:
   text-align: left;
   text-indent: 120px;
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
   padding-bottom: 10;
   color: black;
 }
 
 .rightItem {
+  disply: flex;
+  flex-grow: 1;
   width: 100%;
-
   color: #fff;
   margin: 0 0 0 0;
   padding: 10 0 0 0;
-  position: relative;
   text-align: center;
   text-indent: 5px;
   background: rgba(255, 255, 255, 0.2);
@@ -171,6 +184,7 @@ body {
 
 
 .title {
+  padding-top: 1;
   text-align: center;
   color: white;
   font-size: 15px;
