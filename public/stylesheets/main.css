@@ -33,8 +33,71 @@ body {
   border-radius: 15px 15px 15px 15px;
 }
 
+.listContents {
+  position: absolute;
+  top: 450px;
+  right: 3%;
+  left: 3%;
+  width: 94%;
+  background-color: #e39a4e;
+  border-radius: 15px 15px 15px 15px;
+}
+
+
+
 .borderContent {
   padding: 0 25 0 25;
+}
+
+.basicInfo {
+  padding: 10;
+  border-radius: 15px 15px 15px 15px;
+  display: flex;
+  background-color: #932f4a;
+}
+
+.itemName {
+  flex-grow: 1;
+  background: white;
+  padding: 5;
+  margin: 10;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.itemLocation {
+  flex-grow: 1;
+  background: white;
+  padding: 5;
+  margin: 10;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.itemClass {
+  flex-grow: 1;
+  background: white;
+  padding: 5;
+  margin: 10;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.itemDay {
+  display: flex;
+}
+
+.itemDates {
+  flex-shrink: 1;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10;
+  margin: 5;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.itemTimes {
+  flex-grow: 1;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10;
+  margin: 5;
+  border-radius: 5px 5px 5px 5px;
 }
 
 
@@ -138,4 +201,8 @@ body {
 .submit:hover {
   background-color: #661e31;
 
+}
+
+.top {
+  padding: 25;
 }
